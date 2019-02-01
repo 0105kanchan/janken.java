@@ -16,8 +16,11 @@ public class Hello{
 			System.out.println("Aの勝利!");
 		}else if((a==1 && b==3) || (a==2 && b==1) || (a==3 && b==2)){
 			System.out.println("Bの勝利!");
-		}else if(a==b) {
+		}else if((a==b)&&(1<=a && a<=3)) {
 			System.out.println("あいこ!");
+		}else{
+			System.out.println("1,2,3のどれかを入力してください。");
 		}
 	}
 }
+
